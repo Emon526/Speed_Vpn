@@ -10,7 +10,8 @@ class SplashController extends GetxController {
     Timer(
       Duration(seconds: 5),
       () {
-        Get.offAllNamed('/home');
+         Get.offAllNamed('/customerbottonbar');
+        //Get.offAll(  CustomBottonBar());
       },
     );
   }
