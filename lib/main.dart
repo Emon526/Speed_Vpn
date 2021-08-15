@@ -2,12 +2,13 @@ import 'package:flutter/widgets.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:speed_vpn/controllers/splash/splash_controller_binding.dart';
 import 'package:speed_vpn/screens/home/home_screen.dart';
+import 'package:speed_vpn/screens/server/server_screen.dart';
 import 'package:speed_vpn/screens/splash/splash_screen.dart';
 
 void main(List<String> args) {
   runApp(
     GetMaterialApp(
-      initialRoute: '/splash',
+      initialRoute: '/server',
       debugShowCheckedModeBanner: false,
       getPages: [
         GetPage(
@@ -19,6 +20,10 @@ void main(List<String> args) {
         GetPage(
           name: '/home',
           page: () => HomeScreen(),
+        ),
+        GetPage(
+          name: '/server',
+          page: () => ServersScreen(),
         ),
       ],
     ),
