@@ -7,7 +7,7 @@ const String kImageDir = 'assets/images/';
 const String kImageUrl = 'assets/images/logo.png';
 
 const kPrimaryColor = Color(0xFF56278F);
-const kSecondaryColor = Color(0xFFFFC220);
+const kSecondaryColor = Color(0xFFFFB664);
 const kBlackColor = Colors.black;
 const kWhiteColor = Colors.white;
 const kSuccessColor = Color(0xFF2EB843);
