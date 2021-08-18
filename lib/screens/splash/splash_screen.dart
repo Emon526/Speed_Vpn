@@ -3,11 +3,13 @@ import 'package:get/get_state_manager/src/simple/get_state.dart';
 import 'package:lottie/lottie.dart';
 import 'package:loading_animations/loading_animations.dart';
 import 'package:speed_vpn/controllers/splash/splash_controller.dart';
+import 'package:speed_vpn/helpers/size_config.dart';
 
 class SpalshScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+     SizeConfig().init(context);
     return Scaffold(
       body: GetBuilder<SplashController>(
         builder: (controller) => Container(
