@@ -140,6 +140,9 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: kWhiteColor,
 
         body: Container(
+          margin: EdgeInsets.only(
+            top: 50,
+          ),
           width: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(

@@ -6,7 +6,7 @@ import 'size_config.dart';
 const String kImageDir = 'assets/images/';
 const String kImageUrl = 'assets/images/logo.png';
 
-const kPrimaryColor = Color(0xFF56278F);
+const kPrimaryColor = Color(0xFF200B50);
 const kSecondaryColor = Color(0xFFFFC220);
 const kBlackColor = Colors.black;
 const kWhiteColor = Colors.white;

@@ -9,24 +9,24 @@ class BottombarController extends GetxController {
   var value = 0.0.obs;
  // var _openResult;
 
-  var isPermit = false.obs;
+  // var isPermit = false.obs;
 
-  @override
-  void onInit() {
-    _getPermission();
-    super.onInit();
-  }
+  // @override
+  // void onInit() {
+  //   _getPermission();
+  //   super.onInit();
+  // }
 
-  _getPermission() async {
-    isPermit((await PermissionSettings.promptPermissionSetting()));
-  }
+  // _getPermission() async {
+  //   isPermit((await PermissionSettings.promptPermissionSetting()));
+  // }
 
-  Future<void> openFileWithDefaultApp(FileSystemEntity fileSystemEntity) async {
-    print("THis is: ${fileSystemEntity.path}");
-    String filePath = fileSystemEntity.path;
-    OpenResult _result = await OpenFile.open(filePath);
+  // Future<void> openFileWithDefaultApp(FileSystemEntity fileSystemEntity) async {
+  //   print("THis is: ${fileSystemEntity.path}");
+  //   String filePath = fileSystemEntity.path;
+  //   OpenResult _result = await OpenFile.open(filePath);
 
-    print("Result message: " + _result.message);
-    //_openResult.value = "type=${_result.type}  message=${_result.message}";
-  }
+  //   print("Result message: " + _result.message);
+  //   //_openResult.value = "type=${_result.type}  message=${_result.message}";
+  // }
 }

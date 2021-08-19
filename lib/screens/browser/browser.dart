@@ -7,6 +7,7 @@ class BrowserScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return WebviewScaffold(
+      
       url: "https://google.com",
       withZoom: false,
     );
